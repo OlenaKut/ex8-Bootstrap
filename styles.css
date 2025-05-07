@@ -1,0 +1,82 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e7e6e2;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.navbar {
+  background-color: #19647e !important;
+  color: white !important;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  width: 120px;
+}
+
+.navbar-toggler {
+  color: white !important;  
+  border-color: white !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-img {
+  width: 150px;
+  opacity: 0.5;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.center-img {
+  width: 200px;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.main-header {
+  color: rgb(50, 50, 46);
+}
+.main-subtitle {
+  color: #19647e;
+}
+
+.main-text {
+}
+
+.main-button {
+  background-color: #19647e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background-color: #0d4b6e;
+  color: white;
+}
+
+.main-card {
+  background-color: rgb(221, 220, 214);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: rgb(50, 50, 46);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
