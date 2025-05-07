@@ -3,8 +3,6 @@ body {
   background-color: #e7e6e2;
   margin: 0 auto;
   padding: 0;
-  
-  
 }
 
 .navbar {
@@ -18,7 +16,7 @@ body {
 }
 
 .navbar-toggler {
-  color: white !important;  
+  color: white !important;
   border-color: white !important;
 }
 .navbar-toggler-icon {
@@ -28,9 +26,6 @@ body {
 .carousel-inner {
   overflow: visible;
 }
-
-
-
 
 .main-header {
   color: rgb(50, 50, 46);
@@ -58,7 +53,6 @@ body {
 
 .main-content {
   background-color: rgb(221, 220, 214);
-
 }
 
 .footer {
@@ -69,4 +63,9 @@ body {
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+.card-price {
+  color: rgb(163, 33, 33);
+  font-style: italic;
 }
