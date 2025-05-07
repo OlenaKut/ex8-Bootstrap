@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #e7e6e2;
+  background-color: #f5efe1;
   margin: 0 auto;
   padding: 0;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .main-content {
-  background-color: rgb(221, 220, 214);
+  background-color: #e9dfcd;
 }
 
 .footer {
@@ -68,4 +68,26 @@ body {
 .card-price {
   color: rgb(163, 33, 33);
   font-style: italic;
+}
+
+.background-card {
+  background-color: rgb(241, 238, 232);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cart-about {
+  background-color: #e9dfcd;
+  padding: 0;
+}
+
+.about-title {
+  color: rgb(80, 64, 28);
+}
+
+.about-contact {
+  color: #0d4b6e;
+  font-size: 44px;
+  font-weight: bold;
+
 }
